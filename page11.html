@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page 3</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="jq6.js"></script>
+    <style>
+      .formatted {
+        white-space: pre;
+        font-family: monospace;
+        margin: 0 auto;
+        width: 400px;
+      }
+      .formatted:hover {
+        text-shadow: 5px 5px 5px rgba(0, 0, 0);
+        cursor: grab;
+      }
+      #arch {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        margin-left: 45vw;
+      }
+      #arch:hover {
+        cursor: grab;
+      }
+      .go {
+        font-family: monospace;
+        color: red;
+        text-align: center;
+        display: none;
+        margin-top: 20px;
+        font-size: 36px;
+      }
+      .go:hover {
+        font-style: italic;
+        cursor: grab;
+      }
+
+      .wait {
+        font-family: monospace;
+        color: blue;
+        text-align: center;
+        display: none;
+        margin-top: 20px;
+        font-size: 36px;
+      }
+      .wait:hover {
+        font-style: italic;
+        cursor: grab;
+      }
+      .trust {
+        font-family: monospace;
+        color: red;
+        text-align: center;
+        display: none;
+        margin-top: 20px;
+        font-size: 36px;
+      }
+      .trust:hover {
+        font-style: italic;
+        cursor: grab;
+      }
+      .okay {
+        font-family: monospace;
+        color: blue;
+        text-align: center;
+        display: none;
+        margin-top: 20px;
+        font-size: 36px;
+      }
+      .okay:hover {
+        font-style: italic;
+        cursor: grab;
+      }
+      .carpe {
+        font-family: monospace;
+        color: red;
+        text-align: center;
+        display: none;
+        margin-top: 20px;
+        font-size: 36px;
+      }
+      a {
+        color: red;
+      }
+      a:hover {
+        cursor: grab;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <!--prettier-ignore-->
+    <div class="formatted" id="draggable">
+        What is our life? A play of passion;
+        Our mirth the music of division;
+        Our mothers’ wombs the tiring-houses be,
+        Where we are dressed for this short comedy.
+        Heaven the judicious sharp spectator is,
+        That sits and marks still who doth act amiss;
+        Our graves that hide us from the searching sun
+        Are like drawn curtains when the play is done.
+        Thus march we, playing, to our latest rest,
+        Only we die in earnest – that’s no <span style="color: green;" id="day">jest...</span>
+        <!--Raleigh, Walter. "What Is Our Life." AllPoetry, https://allpoetry.com/poem/14330664-What-Is-Our-Life-by-Sir-Walter-Raleigh. Accessed 3 August 2022-->
+
+    </div>
+    <img src="arch.png" id="arch" style="display: none" />
+    <div class="go" id="go">Go on. They're waiting for you.</div>
+    <div class="wait" id="wait">Wait. What if I'm not ready?</div>
+    <div class="trust" id="trust">Trust yourself. Now go. <br /></div>
+    <div class="okay" id="okay">Thank you for your help.</div>
+    <div class="carpe" id="carpe">
+      It was my pleasure. <a href="page12.html">Make it worth it.</a>
+    </div>
+  </body>
+</html>
